@@ -5,6 +5,7 @@ const translations = {
     navAgents: "Agents",
     navServices: "Services",
     navBooking: "Booking",
+    navProcess: "Process",
     navReviews: "Reviews",
     navFaq: "FAQ",
     navContact: "Contact",
@@ -85,6 +86,8 @@ const translations = {
     faxing: "Faxing",
     bookingTitle: "Booking Flow",
     bookingSubtitle: "Simple steps so clients know exactly what to expect.",
+    bookingChoose: "Choose Benjamin or Mejina before submitting the form.",
+    bookingServiceNote: "Select a service so your agent knows what you need.",
     step1: "1. Select a service",
     step2: "2. Choose Benjamin or Mejina",
     step3: "3. Pick date and time",
@@ -124,9 +127,17 @@ const translations = {
     contactEmailPlaceholder: "you@email.com",
     contactPhoneFormLabel: "Phone Number",
     contactPhonePlaceholder: "(000) 000-0000",
+    contactServiceLabel: "Service Needed",
+    contactServicePlaceholder: "Select a service",
+    contactAddressFormLabel: "Address",
+    contactAddressPlaceholder: "Street address",
+    serviceStatusLabel: "Service selected",
+    serviceStatusNone: "Service selected: none",
     contactMessageLabel: "Message",
     contactMessagePlaceholder: "How can we help?",
     contactSubmit: "Send Message",
+    agentStatusLabel: "Agent selected",
+    agentStatusNone: "Agent selected: none",
     disclaimer:
       "MB Integrity Global Services is not a law firm and does not provide legal advice. All services are administrative assistance only.",
     footerTagline: "Professional support with integrity, clarity, and respect.",
@@ -207,6 +218,7 @@ const translations = {
     navAgents: "Agents",
     navServices: "Services",
     navBooking: "Reservation",
+    navProcess: "Processus",
     navReviews: "Avis",
     navFaq: "FAQ",
     navContact: "Contact",
@@ -289,6 +301,8 @@ const translations = {
     faxing: "Fax",
     bookingTitle: "Processus de reservation",
     bookingSubtitle: "Etapes simples pour que tout soit clair.",
+    bookingChoose: "Choisissez Benjamin ou Mejina avant d'envoyer le formulaire.",
+    bookingServiceNote: "Selectionnez un service pour que l'agent sache votre besoin.",
     step1: "1. Choisir un service",
     step2: "2. Choisir Benjamin ou Mejina",
     step3: "3. Choisir la date et l'heure",
@@ -328,9 +342,17 @@ const translations = {
     contactEmailPlaceholder: "vous@email.com",
     contactPhoneFormLabel: "Numero de telephone",
     contactPhonePlaceholder: "(000) 000-0000",
+    contactServiceLabel: "Service demande",
+    contactServicePlaceholder: "Selectionnez un service",
+    contactAddressFormLabel: "Adresse",
+    contactAddressPlaceholder: "Adresse",
+    serviceStatusLabel: "Service selectionne",
+    serviceStatusNone: "Service selectionne : aucun",
     contactMessageLabel: "Message",
     contactMessagePlaceholder: "Comment pouvons-nous aider ?",
     contactSubmit: "Envoyer le message",
+    agentStatusLabel: "Agent selectionne",
+    agentStatusNone: "Agent selectionne : aucun",
     disclaimer:
       "MB Integrity Global Services n'est pas un cabinet d'avocats et ne fournit pas de conseils juridiques. Tous les services sont de l'assistance administrative uniquement.",
     footerTagline: "Soutien professionnel avec integrite, clarte et respect.",
@@ -410,6 +432,7 @@ const translations = {
     navAgents: "Ajan yo",
     navServices: "Sevis yo",
     navBooking: "Rezervasyon",
+    navProcess: "Pwosesis",
     navReviews: "Temwanyaj",
     navFaq: "FAQ",
     navContact: "Kontak",
@@ -490,6 +513,8 @@ const translations = {
     faxing: "Fakse",
     bookingTitle: "Pwosesis rezervasyon",
     bookingSubtitle: "Etap senp pou kliyan konnen sa pou yo atann.",
+    bookingChoose: "Chwazi Benjamin oswa Mejina anvan ou voye foom nan.",
+    bookingServiceNote: "Chwazi sevis la pou ajan an konn bezwen ou.",
     step1: "1. Chwazi yon sevis",
     step2: "2. Chwazi Benjamin oswa Mejina",
     step3: "3. Chwazi dat ak le",
@@ -528,9 +553,17 @@ const translations = {
     contactEmailPlaceholder: "ou@email.com",
     contactPhoneFormLabel: "Nimewo telefon",
     contactPhonePlaceholder: "(000) 000-0000",
+    contactServiceLabel: "Sevis ou bezwen",
+    contactServicePlaceholder: "Chwazi yon sevis",
+    contactAddressFormLabel: "Adres",
+    contactAddressPlaceholder: "Adres",
+    serviceStatusLabel: "Sevis chwazi",
+    serviceStatusNone: "Sevis chwazi: okenn",
     contactMessageLabel: "Mesaj",
     contactMessagePlaceholder: "Kijan nou ka ede w?",
     contactSubmit: "Voye mesaj",
+    agentStatusLabel: "Ajan chwazi",
+    agentStatusNone: "Ajan chwazi: okenn",
     disclaimer:
       "MB Integrity Global Services pa yon kabine avoka epi li pa bay konseye legal. Tout sevis yo se asistans administratif selman.",
     footerTagline: "Sipo pwofesyonel ak entegrite, klate, ak respe.",
@@ -605,6 +638,7 @@ const translations = {
     navAgents: "Agentes",
     navServices: "Servicios",
     navBooking: "Reservas",
+    navProcess: "Proceso",
     navReviews: "Resenas",
     navFaq: "FAQ",
     navContact: "Contacto",
@@ -687,6 +721,8 @@ const translations = {
     faxing: "Envio de fax",
     bookingTitle: "Flujo de reservas",
     bookingSubtitle: "Pasos simples para saber que esperar.",
+    bookingChoose: "Elija a Benjamin o Mejina antes de enviar el formulario.",
+    bookingServiceNote: "Seleccione un servicio para que el agente conozca su necesidad.",
     step1: "1. Seleccione un servicio",
     step2: "2. Elija a Benjamin o Mejina",
     step3: "3. Elija fecha y hora",
@@ -726,9 +762,17 @@ const translations = {
     contactEmailPlaceholder: "usted@email.com",
     contactPhoneFormLabel: "Numero de telefono",
     contactPhonePlaceholder: "(000) 000-0000",
+    contactServiceLabel: "Servicio requerido",
+    contactServicePlaceholder: "Seleccione un servicio",
+    contactAddressFormLabel: "Direccion",
+    contactAddressPlaceholder: "Direccion",
+    serviceStatusLabel: "Servicio seleccionado",
+    serviceStatusNone: "Servicio seleccionado: ninguno",
     contactMessageLabel: "Mensaje",
     contactMessagePlaceholder: "Como podemos ayudar?",
     contactSubmit: "Enviar mensaje",
+    agentStatusLabel: "Agente seleccionado",
+    agentStatusNone: "Agente seleccionado: ninguno",
     disclaimer:
       "MB Integrity Global Services no es un bufete de abogados y no brinda asesoramiento legal. Todos los servicios son solo asistencia administrativa.",
     footerTagline: "Apoyo profesional con integridad, claridad y respeto.",
@@ -925,6 +969,14 @@ if (reviewForm) {
 
 const navToggle = document.querySelector(".nav-toggle");
 const navLinks = document.getElementById("primary-navigation");
+const agentSelect = document.getElementById("agentSelect");
+const bookingButtons = document.querySelectorAll(".booking-buttons [data-agent]");
+const agentCards = document.querySelectorAll(".agent-card[data-agent]");
+const agentStatus = document.getElementById("agentStatus");
+const serviceSelect = document.getElementById("serviceSelect");
+const serviceButtons = document.querySelectorAll("[data-service]");
+const contactForm = document.querySelector(".contact-form");
+const serviceStatus = document.getElementById("serviceStatus");
 
 if (navToggle && navLinks) {
   navToggle.addEventListener("click", () => {
@@ -936,6 +988,72 @@ if (navToggle && navLinks) {
     link.addEventListener("click", () => {
       document.body.classList.remove("nav-open");
       navToggle.setAttribute("aria-expanded", "false");
+    });
+  });
+}
+
+if (agentSelect && bookingButtons.length) {
+  bookingButtons.forEach((button) => {
+    button.addEventListener("click", () => {
+      const agent = button.dataset.agent;
+      selectAgent(agent);
+    });
+  });
+}
+
+const selectAgent = (agent) => {
+  if (!agentSelect) return;
+  agentSelect.value = agent;
+  bookingButtons.forEach((btn) => btn.classList.remove("active"));
+  bookingButtons.forEach((btn) => {
+    if (btn.dataset.agent === agent) {
+      btn.classList.add("active");
+    }
+  });
+  agentCards.forEach((card) => card.classList.remove("selected"));
+  agentCards.forEach((card) => {
+    if (card.dataset.agent === agent) {
+      card.classList.add("selected");
+    }
+  });
+  if (agentStatus) {
+    agentStatus.textContent = `${translateText("agentStatusLabel")}: ${agent}`;
+  }
+  agentSelect.scrollIntoView({ behavior: "smooth", block: "center" });
+};
+
+const selectService = (service) => {
+  if (!serviceSelect) return;
+  serviceSelect.value = service;
+  if (serviceStatus) {
+    serviceStatus.textContent = `${translateText("serviceStatusLabel")}: ${service}`;
+  }
+  if (contactForm) {
+    contactForm.scrollIntoView({ behavior: "smooth", block: "center" });
+  }
+};
+
+if (serviceButtons.length) {
+  serviceButtons.forEach((button) => {
+    button.addEventListener("click", (event) => {
+      const service = button.dataset.service;
+      if (service) {
+        event.preventDefault();
+        selectService(service);
+      }
+    });
+  });
+}
+
+if (agentCards.length) {
+  agentCards.forEach((card) => {
+    const agent = card.dataset.agent;
+    card.addEventListener("click", () => selectAgent(agent));
+    card.addEventListener("keydown", (event) => {
+      if (event.key === "Enter" || event.key === " ") {
+        event.preventDefault();
+        selectAgent(agent);
+      }
     });
   });
 }

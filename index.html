@@ -70,6 +70,7 @@
           <a href="#agents" data-i18n="navAgents">Agents</a>
           <a href="#services" data-i18n="navServices">Services</a>
           <a href="#booking" data-i18n="navBooking">Booking</a>
+          <a href="#booking-flow" data-i18n="navProcess">Process</a>
           <a href="#reviews" data-i18n="navReviews">Reviews</a>
           <a href="#faq" data-i18n="navFaq">FAQ</a>
           <a href="#contact" data-i18n="navContact">Contact</a>
@@ -208,20 +209,14 @@
             </p>
           </div>
           <div class="agent-grid">
-            <article class="agent-card">
+            <article class="agent-card" data-agent="Benjamin Jean-Baptiste" role="button" tabindex="0">
               <div class="agent-media">
-                <picture>
-                  <source
-                    type="image/webp"
-                    srcset="WhatsApp%20Image%202025-10-31%20at%2000.03.55.webp"
-                  />
-                  <img
-                    class="agent-photo"
-                    src="WhatsApp%20Image%202025-10-31%20at%2000.03.55.jpeg"
-                    alt="Benjamin Jean-Baptiste"
-                    loading="lazy"
-                  />
-                </picture>
+                <img
+                  class="agent-photo"
+                  src="benjamin.jpg"
+                  alt="Benjamin Jean-Baptiste"
+                  loading="lazy"
+                />
                 <span class="agent-badge" data-i18n="badgeAvailable">Available</span>
               </div>
               <h3>Benjamin Jean-Baptiste</h3>
@@ -248,20 +243,14 @@
               </div>
             </article>
 
-            <article class="agent-card">
+            <article class="agent-card" data-agent="Mejina Joseph" role="button" tabindex="0">
               <div class="agent-media">
-                <picture>
-                  <source
-                    type="image/webp"
-                    srcset="WhatsApp%20Image%202025-10-31%20at%2000.31.48.webp"
-                  />
-                  <img
-                    class="agent-photo"
-                    src="WhatsApp%20Image%202025-10-31%20at%2000.31.48.jpeg"
-                    alt="Mejina Joseph"
-                    loading="lazy"
-                  />
-                </picture>
+                <img
+                  class="agent-photo"
+                  src="mejina.jpg"
+                  alt="Mejina Joseph"
+                  loading="lazy"
+                />
                 <span class="agent-badge" data-i18n="badgeAvailable">Available</span>
               </div>
               <h3>Mejina Joseph</h3>
@@ -304,35 +293,60 @@
               <article class="service-card">
                 <h4 data-i18n="asylumPayment">Asylum Payment</h4>
                 <p class="service-meta">20 mins - $20</p>
-                <a class="button ghost" href="#booking" data-i18n="bookNow">
+                <a
+                  class="button ghost"
+                  href="#booking"
+                  data-i18n="bookNow"
+                  data-service="Asylum Payment"
+                >
                   Book Now
                 </a>
               </article>
               <article class="service-card">
                 <h4 data-i18n="foodstampMedicaid">Foodstamp / Medicaid Application</h4>
                 <p class="service-meta">1 hr - $50</p>
-                <a class="button ghost" href="#booking" data-i18n="bookNow">
+                <a
+                  class="button ghost"
+                  href="#booking"
+                  data-i18n="bookNow"
+                  data-service="Foodstamp / Medicaid Application"
+                >
                   Book Now
                 </a>
               </article>
               <article class="service-card">
                 <h4 data-i18n="tps">TPS (Temporary Protected Status)</h4>
                 <p class="service-meta">1 hr - $200</p>
-                <a class="button ghost" href="#booking" data-i18n="bookNow">
+                <a
+                  class="button ghost"
+                  href="#booking"
+                  data-i18n="bookNow"
+                  data-service="TPS (Temporary Protected Status)"
+                >
                   Book Now
                 </a>
               </article>
               <article class="service-card">
                 <h4 data-i18n="asylumApplication">Asylum Application</h4>
                 <p class="service-meta">2 hrs - $750</p>
-                <a class="button ghost" href="#booking" data-i18n="bookNow">
+                <a
+                  class="button ghost"
+                  href="#booking"
+                  data-i18n="bookNow"
+                  data-service="Asylum Application"
+                >
                   Book Now
                 </a>
               </article>
               <article class="service-card">
                 <h4 data-i18n="employmentAuth">Employment Authorization Application</h4>
                 <p class="service-meta">1 hr - $150</p>
-                <a class="button ghost" href="#booking" data-i18n="bookNow">
+                <a
+                  class="button ghost"
+                  href="#booking"
+                  data-i18n="bookNow"
+                  data-service="Employment Authorization Application"
+                >
                   Book Now
                 </a>
               </article>
@@ -341,70 +355,120 @@
                   Call USCIS / Immigration and Translate
                 </h4>
                 <p class="service-meta">1 hr - $50</p>
-                <a class="button ghost" href="#booking" data-i18n="bookNow">
+                <a
+                  class="button ghost"
+                  href="#booking"
+                  data-i18n="bookNow"
+                  data-service="Call USCIS / Immigration and Translate"
+                >
                   Book Now
                 </a>
               </article>
               <article class="service-card">
                 <h4 data-i18n="changeCourtVenue">Change Court and Venue Address</h4>
                 <p class="service-meta">1 hr - $175</p>
-                <a class="button ghost" href="#booking" data-i18n="bookNow">
+                <a
+                  class="button ghost"
+                  href="#booking"
+                  data-i18n="bookNow"
+                  data-service="Change Court and Venue Address"
+                >
                   Book Now
                 </a>
               </article>
               <article class="service-card">
                 <h4 data-i18n="changeAddressUscis">Change of Address / USCIS</h4>
                 <p class="service-meta">30 mins - $50</p>
-                <a class="button ghost" href="#booking" data-i18n="bookNow">
+                <a
+                  class="button ghost"
+                  href="#booking"
+                  data-i18n="bookNow"
+                  data-service="Change of Address / USCIS"
+                >
                   Book Now
                 </a>
               </article>
               <article class="service-card">
                 <h4 data-i18n="i485">I-485 Adjustment of Status</h4>
                 <p class="service-meta">2 hrs - $250</p>
-                <a class="button ghost" href="#booking" data-i18n="bookNow">
+                <a
+                  class="button ghost"
+                  href="#booking"
+                  data-i18n="bookNow"
+                  data-service="I-485 Adjustment of Status"
+                >
                   Book Now
                 </a>
               </article>
               <article class="service-card">
                 <h4 data-i18n="i130">I-130 Family Based Petition / Residence</h4>
                 <p class="service-meta">2 hrs - $350</p>
-                <a class="button ghost" href="#booking" data-i18n="bookNow">
+                <a
+                  class="button ghost"
+                  href="#booking"
+                  data-i18n="bookNow"
+                  data-service="I-130 Family Based Petition / Residence"
+                >
                   Book Now
                 </a>
               </article>
               <article class="service-card">
                 <h4 data-i18n="i864">I-864 Affidavit of Support</h4>
                 <p class="service-meta">1 hr - $250</p>
-                <a class="button ghost" href="#booking" data-i18n="bookNow">
+                <a
+                  class="button ghost"
+                  href="#booking"
+                  data-i18n="bookNow"
+                  data-service="I-864 Affidavit of Support"
+                >
                   Book Now
                 </a>
               </article>
               <article class="service-card">
                 <h4 data-i18n="naturalization">Naturalization</h4>
                 <p class="service-meta">2 hrs - $250</p>
-                <a class="button ghost" href="#booking" data-i18n="bookNow">
+                <a
+                  class="button ghost"
+                  href="#booking"
+                  data-i18n="bookNow"
+                  data-service="Naturalization"
+                >
                   Book Now
                 </a>
               </article>
               <article class="service-card">
                 <h4 data-i18n="writeLetterUscis">Writing a Letter to USCIS</h4>
                 <p class="service-meta">1 hr - $50</p>
-                <a class="button ghost" href="#booking" data-i18n="bookNow">
+                <a
+                  class="button ghost"
+                  href="#booking"
+                  data-i18n="bookNow"
+                  data-service="Writing a Letter to USCIS"
+                >
                   Book Now
                 </a>
               </article>
               <article class="service-card">
                 <h4 data-i18n="createUscisAccount">Creating USCIS Account</h4>
                 <p class="service-meta">30 mins - $25</p>
-                <a class="button ghost" href="#booking" data-i18n="bookNow">
+                <a
+                  class="button ghost"
+                  href="#booking"
+                  data-i18n="bookNow"
+                  data-service="Creating USCIS Account"
+                >
                   Book Now
                 </a>
               </article>
               <article class="service-card">
                 <h4 data-i18n="checkEoir">Check EOIR System / Clock</h4>
                 <p class="service-meta">5 mins - Free</p>
-                <a class="button ghost" href="#booking" data-i18n="bookNow">
+                <a
+                  class="button ghost"
+                  href="#booking"
+                  data-i18n="bookNow"
+                  data-service="Check EOIR System / Clock"
+                >
                   Book Now
                 </a>
               </article>
@@ -420,49 +484,84 @@
                 <p class="service-highlight" data-i18n="taxHighlight">
                   Limited-time highlight
                 </p>
-                <a class="button ghost" href="#booking" data-i18n="bookNow">
+                <a
+                  class="button ghost"
+                  href="#booking"
+                  data-i18n="bookNow"
+                  data-service="Tax Consultation"
+                >
                   Book Now
                 </a>
               </article>
               <article class="service-card">
                 <h4 data-i18n="reachBack">Reach Back to Client</h4>
                 <p class="service-meta">30 mins - Free</p>
-                <a class="button ghost" href="#booking" data-i18n="bookNow">
+                <a
+                  class="button ghost"
+                  href="#booking"
+                  data-i18n="bookNow"
+                  data-service="Reach Back to Client"
+                >
                   Book Now
                 </a>
               </article>
               <article class="service-card">
                 <h4 data-i18n="creditCard">Credit Card Application</h4>
                 <p class="service-meta">1 hr - $50</p>
-                <a class="button ghost" href="#booking" data-i18n="bookNow">
+                <a
+                  class="button ghost"
+                  href="#booking"
+                  data-i18n="bookNow"
+                  data-service="Credit Card Application"
+                >
                   Book Now
                 </a>
               </article>
               <article class="service-card">
                 <h4 data-i18n="registerLlc">Registering LLC / EIN</h4>
                 <p class="service-meta">1 hr - $150</p>
-                <a class="button ghost" href="#booking" data-i18n="bookNow">
+                <a
+                  class="button ghost"
+                  href="#booking"
+                  data-i18n="bookNow"
+                  data-service="Registering LLC / EIN"
+                >
                   Book Now
                 </a>
               </article>
               <article class="service-card">
                 <h4 data-i18n="resumeAssist">Assisting with Resume</h4>
                 <p class="service-meta">1 hr - $50</p>
-                <a class="button ghost" href="#booking" data-i18n="bookNow">
+                <a
+                  class="button ghost"
+                  href="#booking"
+                  data-i18n="bookNow"
+                  data-service="Assisting with Resume"
+                >
                   Book Now
                 </a>
               </article>
               <article class="service-card">
                 <h4 data-i18n="jobApplication">Assistance with Job Application</h4>
                 <p class="service-meta">2 hrs - $75</p>
-                <a class="button ghost" href="#booking" data-i18n="bookNow">
+                <a
+                  class="button ghost"
+                  href="#booking"
+                  data-i18n="bookNow"
+                  data-service="Assistance with Job Application"
+                >
                   Book Now
                 </a>
               </article>
               <article class="service-card">
                 <h4 data-i18n="faxing">Faxing</h4>
                 <p class="service-meta">30 mins - $10</p>
-                <a class="button ghost" href="#booking" data-i18n="bookNow">
+                <a
+                  class="button ghost"
+                  href="#booking"
+                  data-i18n="bookNow"
+                  data-service="Faxing"
+                >
                   Book Now
                 </a>
               </article>
@@ -471,7 +570,7 @@
         </div>
       </section>
 
-      <section id="booking" class="section alt">
+      <section id="booking-flow" class="section alt">
         <div class="container">
           <div class="section-header">
             <h2 data-i18n="bookingTitle">Booking Flow</h2>
@@ -479,9 +578,21 @@
               Simple steps so clients know exactly what to expect.
             </p>
           </div>
+          <div class="booking-choice">
+            <p data-i18n="bookingChoose">Choose Benjamin or Mejina before submitting the form.</p>
+            <p data-i18n="bookingServiceNote">Select a service so your agent knows what you need.</p>
+            <div class="booking-buttons">
+              <button class="button ghost" type="button" data-agent="Benjamin Jean-Baptiste">
+                Choose Benjamin
+              </button>
+              <button class="button ghost" type="button" data-agent="Mejina Joseph">
+                Choose Mejina
+              </button>
+            </div>
+          </div>
           <div class="steps">
             <div class="step" data-i18n="step1">1. Select a service</div>
-            <div class="step" data-i18n="step2">2. Choose Benjamin or Mejina</div>
+            <a class="step" href="#agents" data-i18n="step2">2. Choose Benjamin or Mejina</a>
             <div class="step" data-i18n="step3">3. Pick date and time</div>
             <div class="step" data-i18n="step4">4. Enter personal information</div>
             <div class="step" data-i18n="step5">
@@ -610,6 +721,7 @@
       </section>
 
       <section id="contact" class="section">
+        <div id="booking" class="anchor-target"></div>
         <div class="container contact-grid">
           <div>
             <div class="section-header">
@@ -655,6 +767,68 @@
             method="post"
           >
             <label>
+              <span data-i18n="contactServiceLabel">Service Needed</span>
+              <select name="service" id="serviceSelect" required>
+                <option value="" data-i18n="contactServicePlaceholder">
+                  Select a service
+                </option>
+                <option value="Asylum Payment">Asylum Payment</option>
+                <option value="Foodstamp / Medicaid Application">
+                  Foodstamp / Medicaid Application
+                </option>
+                <option value="TPS (Temporary Protected Status)">
+                  TPS (Temporary Protected Status)
+                </option>
+                <option value="Asylum Application">Asylum Application</option>
+                <option value="Employment Authorization Application">
+                  Employment Authorization Application
+                </option>
+                <option value="Call USCIS / Immigration and Translate">
+                  Call USCIS / Immigration and Translate
+                </option>
+                <option value="Change Court and Venue Address">
+                  Change Court and Venue Address
+                </option>
+                <option value="Change of Address / USCIS">
+                  Change of Address / USCIS
+                </option>
+                <option value="I-485 Adjustment of Status">
+                  I-485 Adjustment of Status
+                </option>
+                <option value="I-130 Family Based Petition / Residence">
+                  I-130 Family Based Petition / Residence
+                </option>
+                <option value="I-864 Affidavit of Support">
+                  I-864 Affidavit of Support
+                </option>
+                <option value="Naturalization">Naturalization</option>
+                <option value="Writing a Letter to USCIS">
+                  Writing a Letter to USCIS
+                </option>
+                <option value="Creating USCIS Account">Creating USCIS Account</option>
+                <option value="Check EOIR System / Clock">
+                  Check EOIR System / Clock
+                </option>
+                <option value="Tax Consultation">Tax Consultation</option>
+                <option value="Reach Back to Client">Reach Back to Client</option>
+                <option value="Credit Card Application">Credit Card Application</option>
+                <option value="Registering LLC / EIN">Registering LLC / EIN</option>
+                <option value="Assisting with Resume">Assisting with Resume</option>
+                <option value="Assistance with Job Application">
+                  Assistance with Job Application
+                </option>
+                <option value="Faxing">Faxing</option>
+              </select>
+            </label>
+            <label>
+              <span data-i18n="contactAgentLabel">Preferred Agent</span>
+              <select name="agent" id="agentSelect" required>
+                <option value="" data-i18n="contactAgentPlaceholder">Select an agent</option>
+                <option value="Benjamin Jean-Baptiste">Benjamin Jean-Baptiste</option>
+                <option value="Mejina Joseph">Mejina Joseph</option>
+              </select>
+            </label>
+            <label>
               <span data-i18n="contactNameLabel">Full Name</span>
               <input
                 type="text"
@@ -684,6 +858,16 @@
               />
             </label>
             <label>
+              <span data-i18n="contactAddressFormLabel">Address</span>
+              <input
+                type="text"
+                name="address"
+                placeholder="Street address"
+                data-i18n-placeholder="contactAddressPlaceholder"
+                required
+              />
+            </label>
+            <label>
               <span data-i18n="contactMessageLabel">Message</span>
               <textarea
                 name="message"
@@ -695,6 +879,12 @@
             <button class="button primary" type="submit" data-i18n="contactSubmit">
               Send Message
             </button>
+            <p class="form-status" id="agentStatus" data-i18n="agentStatusNone">
+              Agent selected: none
+            </p>
+            <p class="form-status" id="serviceStatus" data-i18n="serviceStatusNone">
+              Service selected: none
+            </p>
           </form>
         </div>
       </section>
